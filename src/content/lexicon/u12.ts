@@ -1,0 +1,87 @@
+/**
+ * U12 lexicon — “Çand û Cîran” (Culture and Neighbours).
+ * Celebrations, customs, neighbours, food, polite formulas and abstract nouns.
+ */
+
+import { lx } from "./helpers";
+
+export const u12Lexemes = [
+  lx("lex.newroz", "Newroz", "Newroz (Kurdish new year)", "proper-noun", "m"),
+  lx("lex.cejn", "cejn", "celebration; festival", "noun", "f"),
+  lx("lex.dawet", "dawet", "wedding; party", "noun", "f"),
+  lx("lex.zewac", "zewac", "marriage", "noun", "m"),
+  lx("lex.rojbun", "rojbûn", "birthday", "noun", "f"),
+  lx("lex.pirozi", "pîrozî", "celebration", "noun", "f"),
+  lx("lex.sahi", "şahî", "joy; festivity", "noun", "f"),
+  lx("lex.stran", "stran", "song", "noun", "f"),
+  lx("lex.def", "def", "drum", "noun", "f"),
+  lx("lex.tembur", "tembûr", "tembur (long-necked lute)", "noun", "f"),
+  lx("lex.agir", "agir", "fire", "noun", "m"),
+  lx("lex.sirini", "şîrînî", "sweets; dessert", "noun", "f"),
+
+  lx("lex.mevan", "mêvan", "guest", "noun", "m/f"),
+  lx("lex.mevandari", "mêvandarî", "hospitality", "noun", "f"),
+  lx("lex.dawetname", "dawetname", "invitation", "noun", "f"),
+  lx("lex.hediye", "hediye", "gift", "noun", "f"),
+  lx("lex.sifre", "sifre", "dinner spread; table", "noun", "f"),
+  lx("lex.dolma", "dolma", "dolma (stuffed vegetables)", "noun", "f"),
+  lx("lex.kutilk", "kutilk", "kutilk (stuffed bulgur balls)", "noun", "f"),
+  lx("lex.hejir", "hêjîr", "fig", "noun", "f"),
+  lx("lex.hinar", "hinar", "pomegranate", "noun", "f"),
+  lx("lex.hingiv", "hingiv", "honey", "noun", "m"),
+
+  lx("lex.kevnesopi", "kevneşopî", "traditional", "adjective"),
+  lx("lex.edet", "edet", "custom; habit", "noun", "f"),
+  lx("lex.cand", "çand", "culture", "noun", "f"),
+  lx("lex.din", "dîn", "religion", "noun", "m"),
+  lx("lex.rumet", "rûmet", "respect; dignity", "noun", "f"),
+  lx("lex.rez", "rêz", "respect; order", "noun", "f"),
+  lx("lex.dilsozi", "dilsozî", "kindness; devotion", "noun", "f"),
+  lx("lex.ciranti", "cîrantî", "neighbourliness", "noun", "f"),
+  lx("lex.hevsi", "hevsî", "neighbour", "noun", "m/f"),
+  lx("lex.arami", "aramî", "quiet; calm", "noun", "f"),
+  lx("lex.pekve", "pêkve", "together", "adverb"),
+  lx("lex.piroz", "pîroz", "blessed; sacred", "adjective"),
+
+  lx("lex.xatire-te", "xatirê te", "goodbye (to one person)", "phrase"),
+  lx("lex.nos-be", "noş be", "bon appétit", "phrase"),
+  lx("lex.destxwes-be", "destxweş be", "well done; enjoy your meal", "phrase"),
+  lx("lex.ser-cavan", "ser çavan", "with pleasure; gladly", "phrase"),
+  lx("lex.bi-xer-be", "bi xêr be", "goodbye; may it be well", "phrase"),
+  lx(
+    "lex.xwede-je-razi-be",
+    "Xwedê jê razî be",
+    "may God be pleased with you",
+    "phrase",
+  ),
+  lx(
+    "lex.ez-spasiya-we-dikim",
+    "ez spasiya we dikim",
+    "thank you (formal)",
+    "phrase",
+  ),
+  lx("lex.bibore", "bibore", "sorry; excuse me", "interjection"),
+  lx("lex.bi-xer-hati", "bi xêr hatî", "welcome", "phrase"),
+
+  lx("lex.evin", "evîn", "love", "noun", "f"),
+  lx("lex.hevi", "hêvî", "hope", "noun", "f"),
+  lx("lex.xewn", "xewn", "dream", "noun", "f"),
+  lx("lex.azadi", "azadî", "freedom", "noun", "f"),
+  lx("lex.yekiti", "yekîtî", "unity", "noun", "f"),
+  lx("lex.asiti", "aşitî", "peace", "noun", "f"),
+  lx("lex.dostani", "dostanî", "friendship", "noun", "f"),
+  lx("lex.birati", "biratî", "brotherhood", "noun", "f"),
+  lx("lex.welatparezi", "welatparêzî", "patriotism", "noun", "f"),
+  lx("lex.biranin", "bîranîn", "memory; remembrance", "noun", "f"),
+  lx("lex.rasti", "rastî", "truth; reality", "noun", "f"),
+  lx("lex.maf", "maf", "right; entitlement", "noun", "m"),
+  lx("lex.giring", "giring", "important", "adjective"),
+  lx(
+    "lex.peskisi-kirin",
+    "pêşkêşî kirin",
+    "to offer; to present",
+    "verb",
+    undefined,
+    ["CHY"],
+  ),
+];
